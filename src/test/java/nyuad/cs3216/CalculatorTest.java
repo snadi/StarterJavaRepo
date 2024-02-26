@@ -30,7 +30,7 @@ public class CalculatorTest {
     public void divide_WholeFraction() {
         int a = 3;
         int b = 4;
-        double expected = 0.75;
+        double expected = 1.75;
         assertEquals(expected, calculator.divide(a, b));
     }
 
