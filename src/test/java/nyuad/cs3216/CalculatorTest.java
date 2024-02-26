@@ -23,7 +23,7 @@ public class CalculatorTest {
         int a = 12;
         int b = 4;
         double expected = 3;
-        assertEquals(expected, calculator.divid(a, b));
+        assertEquals(expected, calculator.divide(a, b));
     }
 
     @Test
