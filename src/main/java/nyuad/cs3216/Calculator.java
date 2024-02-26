@@ -10,6 +10,12 @@ public class Calculator {
       return result;
    }
 
+   public double add(int a, int b) {
+      double result = (double) a + (double) b;
+      currentValue = result;
+      return result;
+   }
+
    public double getCurrentValue() {
       return currentValue;
    }
