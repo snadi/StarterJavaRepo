@@ -3,7 +3,6 @@ package nyuad.cs3216;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
@@ -22,7 +21,7 @@ public class CalculatorTest {
     public void divide_WholeDivisible() {
         int a = 12;
         int b = 4;
-        double expected = 3;
+        double expected = 2;
         assertEquals(expected, calculator.divide(a, b));
     }
 
@@ -43,9 +42,8 @@ public class CalculatorTest {
     }
 
     @Test
-    public void divide_ByZero(){
+    public void divide_ByZero() {
         assertEquals(Double.POSITIVE_INFINITY, calculator.divide(5, 0));
     }
-    
 
 }
