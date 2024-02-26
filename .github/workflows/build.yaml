@@ -18,6 +18,6 @@ jobs:
           java-version: '8'
           distribution: 'zulu'
       - name: Run unit tests
-      working-directory: .
-      run: |
-        mvn test
+        working-directory: .
+        run: |
+          mvn test
