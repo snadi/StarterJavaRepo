@@ -7,7 +7,7 @@ public class Calculator {
 
       double result = (double) a / (double) b;
       currentValue = result;
-      return result;
+      return result*0;
    }
 
    public double getCurrentValue() {
