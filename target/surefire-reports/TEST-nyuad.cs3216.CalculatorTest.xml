@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="nyuad.cs3216.CalculatorTest" time="0.025" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="nyuad.cs3216.CalculatorTest" time="0.024" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AE"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/theemperor/Downloads/StarterJavaRepo/target/surefire/surefirebooter9199753215886920937.jar /Users/theemperor/Downloads/StarterJavaRepo/target/surefire 2024-02-26T14-13-26_044-jvmRun1 surefire16561980348556704277tmp surefire_017467242664227872051tmp"/>
+    <property name="sun.java.command" value="/Users/theemperor/Downloads/StarterJavaRepo/target/surefire/surefirebooter7437740092587270746.jar /Users/theemperor/Downloads/StarterJavaRepo/target/surefire 2024-02-26T14-28-28_550-jvmRun1 surefire17246888025408905106tmp surefire_016486832969836425335tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/theemperor/Downloads/StarterJavaRepo/target/test-classes:/Users/theemperor/Downloads/StarterJavaRepo/target/classes:/Users/theemperor/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/theemperor/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/theemperor/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/theemperor/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/theemperor/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/theemperor/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/theemperor/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/theemperor/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/theemperor/Downloads/StarterJavaRepo/target/surefire/surefirebooter9199753215886920937.jar"/>
+    <property name="surefire.real.class.path" value="/Users/theemperor/Downloads/StarterJavaRepo/target/surefire/surefirebooter7437740092587270746.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -57,8 +57,8 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="divide_WithRemainder" classname="nyuad.cs3216.CalculatorTest" time="0.014"/>
-  <testcase name="divide_WholeFraction" classname="nyuad.cs3216.CalculatorTest" time="0.001"/>
-  <testcase name="divide_ByZero" classname="nyuad.cs3216.CalculatorTest" time="0.001"/>
-  <testcase name="divide_WholeDivisible" classname="nyuad.cs3216.CalculatorTest" time="0.001"/>
+  <testcase name="divide_WithRemainder" classname="nyuad.cs3216.CalculatorTest" time="0.013"/>
+  <testcase name="divide_WholeFraction" classname="nyuad.cs3216.CalculatorTest" time="0"/>
+  <testcase name="divide_ByZero" classname="nyuad.cs3216.CalculatorTest" time="0"/>
+  <testcase name="divide_WholeDivisible" classname="nyuad.cs3216.CalculatorTest" time="0"/>
 </testsuite>
