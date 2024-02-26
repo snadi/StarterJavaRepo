@@ -2,8 +2,7 @@ name: Build & test project
 
 on: 
   push:
-    branches:
-  pull-request:
+  pull_request:
 
 jobs:
   build:
