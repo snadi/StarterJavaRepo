@@ -10,6 +10,16 @@ public class Calculator {
       return result;
    }
 
+   public double multiply(int a, int b){
+      double result = (double) a * (double) b;
+      currentValue = result;
+      return currentValue;
+   }
+
+   // public double getMultiplyValue(){
+   //    return multiplyValue;
+   // }
+
    public double getCurrentValue() {
       return currentValue;
    }
