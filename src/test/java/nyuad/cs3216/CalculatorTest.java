@@ -21,7 +21,7 @@ public class CalculatorTest {
     public void divide_WholeDivisible() {
         int a = 12;
         int b = 4;
-        double expected = 3;
+        double expected = 3; // dummy test
         assertEquals(expected, calculator.divide(a, b));
     }
 
