@@ -5,9 +5,9 @@ public class Calculator {
 
    public double divide(int a, int b) {
 
-      double result = (double) a / (double);
+      double result = (double) a / (double) b;
       currentValue = result;
-      return result;
+      return a;
    }
 
    public double getCurrentValue() {
