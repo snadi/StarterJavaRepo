@@ -5,7 +5,7 @@ public class Calculator {
 
    public double divide(int a, int b) {
 
-      double result = (double) a / (double) b;
+      double result = (double) a / (double);
       currentValue = result;
       return result;
    }
