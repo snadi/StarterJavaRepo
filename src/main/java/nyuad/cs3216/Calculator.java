@@ -14,3 +14,5 @@ public class Calculator {
       return currentValue;
    }
 }
+
+// added a comment
