@@ -15,7 +15,7 @@ public class CalculatorTest {
 
     @BeforeEach
     private void initializeCalculator() {
-        calculator = new Calc();
+        calculator = new Calculator();
     }
 
     @Test
