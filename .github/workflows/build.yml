@@ -1,24 +1,29 @@
 name: Build & test project
 
-on: 
-  push:
-    branches:
-      - main
-  pull_request:
+on:
+    push:
+      branches:
+        - main
+        - snadi/javamatrix
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        java: [ '8', '11', '17', '21' ]
+    name: Java ${{ matrix.Java }} sample
 
     steps:
       - uses: actions/checkout@v4
-
+        
       - name: Set up JDK 8
         uses: actions/setup-java@v3
         with:
-          java-version: '8'
+          java-version: ${{ matrix.java }}
           distribution: 'zulu'
-      - name: Build project with maven
+
+      - name: Run unit tests
         working-directory: .
         run: |
           mvn test
